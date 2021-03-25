@@ -1,0 +1,248 @@
+h1,h2,h3,h4,h5,a{
+    font-family: 'Philosopher', sans-serif;
+}
+/* Header-section */
+.header-maie-div{
+    background-image: url(https://i.ibb.co/rt441Gh/slider-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+
+    position: relative;
+    z-index: 9;
+}
+.header-maie-div::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1f2235ad;
+    z-index: -1;
+}
+
+.header-top{
+    padding-top: 10px;
+}
+
+.header-top-left{}
+.header-top-left ul{}
+.header-top-left ul li i{
+    color: #fff;
+}
+.header-top-left ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.header-top-left ul li a{
+    display: inline-block;
+    color: #fff;
+}
+
+.header-top-right{
+    color: #fff;
+}
+.header-top-right ul{
+    text-align: right;
+    margin-right: 40px;
+}
+.header-top-right ul li{
+    display: inline-block;
+}
+.header-top-right ul li a{
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+}
+
+
+
+/* header */
+.header {
+	background-color: #afafc445;
+    margin: 0px 50px;
+}
+.header-logo{}
+.header-logo img{
+    max-width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.header-menu{}
+.header-menu ul{
+    text-align: right;
+    margin-right: 40px;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px;
+	text-decoration: none;
+    transition: .4s;
+    margin-top: 15px;
+}
+.header-menu ul li a:hover{
+    color: #B5897B;
+}
+
+.slider-text{
+    position: relative;
+    top: 13%;
+}
+.slider-text h6{
+    background-color: #afafc445;
+    display: inline-block;
+    padding: 10px;
+}
+.slider-text h1{
+    font-size: 70px;
+    margin: 20px auto;
+}
+.slider-text p{
+    font-size: 20px;
+}
+.slider-text a {
+	padding: 12px 40px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #B5958E;
+	margin: 20px;
+	border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: .4s;
+}
+.slider-text a.button-1:hover{
+    background-color: #423633;
+}
+.slider-text a.button-2{
+    background-color: #fff;
+    color: black;
+}
+.slider-text a.button-2:hover{
+    background-color: #B5958E;
+    color: #fff;
+}
+
+
+/* pages-section */
+.pages-section{
+    padding: 80px 0;
+}
+.pages-form{
+    background-color: #FEEBEA;
+}
+.button-3 {
+	background-color: #fff;
+	padding: 12px 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-top: 13px;
+	border-radius: 8px;
+    transition: .4s;
+}
+.button-3:hover{
+    color: #fff;
+    background-color: #B5958E;
+}
+
+
+/* paragraph-section */
+.paragraph-section{
+    background-color: #FEEBEA;
+    padding-top: 80px;
+}
+.paragraph-text h1 {
+    font-size: 43px;
+    font-weight: 600;
+}
+.paragraph-text p{
+    color: #444240;
+    margin: 20px 0;
+}
+.paragraph-text img{
+    margin: 20px 0;
+}
+.signaser p{
+    font-size: 20px;
+    color: #B5968F;
+    margin-top: -5px;
+}
+.paragraph-right{
+    background-image: url("https://i.ibb.co/N1Lfs8f/doctor-img-bg-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* about-section */
+.about-section{
+    padding: 60px 0;
+}
+.about-title h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.about-item{
+    margin-top: 30px;
+}
+.about-item img{
+    margin-bottom: 20px;
+}
+.about-item a{
+    color: #B5968F;
+}
+.about-sarvic-top {
+	margin-bottom: 30px;
+	background-color: #faf8f8;
+	padding: 30px;
+	box-shadow: rgba(5, 5, 5,.4);
+	box-shadow: 0px 0px 18px #ece4d7;
+    transition: .4s;
+}
+.about-sarvic-top:hover{
+    background-color: #fff;
+    transform: scale(1.0);
+}
+.about-sarvic-top p{
+    line-height: 1.8;
+}
+.about-sarvic-top a{
+    transition: .4s;
+}
+.about-sarvic-top a:hover{
+
+}
+.about-sarvic-bootom{
+    background-color: #faf8f8;
+    padding: 30px;
+    box-shadow: 0px 0px 18px #ece4d7;
+    transition: .4s;
+}
+.about-sarvic-bootom:hover{
+    background-color: #fff;
+    transform: scale(1.0);
+}
+.about-sarvic-bootom p{
+    line-height: 1.8;
+}
+
+
+
+
+
+.accordion-item h2{
+    text-decoration: none;
+}
